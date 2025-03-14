@@ -1,0 +1,177 @@
+{
+  "/Users/maja/projects/library-app/src/components/Button/Button.tsx": {
+    "path": "/Users/maja/projects/library-app/src/components/Button/Button.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 27
+        },
+        "end": {
+          "line": 8,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Button",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 51
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 11
+    },
+    "f": {
+      "0": 11
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f303084d0597609848a5da8d1796f4a3efab9ae7"
+  },
+  "/Users/maja/projects/library-app/src/app/layout.tsx": {
+    "path": "/Users/maja/projects/library-app/src/app/layout.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 17,
+          "column": 34
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "RootLayout",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 24
+          },
+          "end": {
+            "line": 22,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 4
+          },
+          "end": {
+            "line": 38,
+            "column": 1
+          }
+        },
+        "line": 26
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 6
+    },
+    "f": {
+      "0": 6
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "12608c543f281e5b131ff8bf8075b250e77b2576"
+  },
+  "/Users/maja/projects/library-app/src/app/page.tsx": {
+    "path": "/Users/maja/projects/library-app/src/app/page.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 102,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Home",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 31
+          },
+          "end": {
+            "line": 103,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 6
+    },
+    "f": {
+      "0": 6
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4504e880143fc240c3c3d19fc3735b249deedd58"
+  }
+}
