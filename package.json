@@ -20,6 +20,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "next": "15.2.1",
     "react": "^19",
     "react-dom": "^19"
