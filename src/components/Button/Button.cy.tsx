@@ -1,17 +1,17 @@
-import Button from "./Button"
+import Button from './Button';
 
 describe('Button Component', () => {
   it('Should render and display expected content', () => {
-    cy.mount(<Button title="Submit"/>)
+    cy.mount(<Button title="Submit" />);
 
-    cy.get('button').contains('Submit')
-  })
+    cy.get('button').contains('Submit');
+  });
 
   it('Should trigger onclick as expected', () => {
-    const onClickSpy = cy.spy().as('onclickSpy')
-    cy.mount(<Button title="Submit" onClick={onClickSpy}/>)
+    const onClickSpy = cy.spy().as('onclickSpy');
+    cy.mount(<Button title="Submit" onClick={onClickSpy} />);
 
-    cy.get('button').click()
-    cy.get('@onclickSpy').should('be.calledOnce')
-  })
-})
+    cy.get('button').click();
+    cy.get('@onclickSpy').should('be.calledOnce');
+  });
+});

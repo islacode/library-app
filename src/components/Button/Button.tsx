@@ -1,12 +1,10 @@
-import React, { HtmlHTMLAttributes } from 'react'
+import React, { HtmlHTMLAttributes } from 'react';
 
 interface ButtonProps extends HtmlHTMLAttributes<HTMLButtonElement> {
-  title: string,
+  title: string;
 }
 
 export default function Button(props: ButtonProps) {
-  const {title, ...rest} = props
-  return (
-    <button {...rest}>{title}</button>
-  )
+  const { title, ...rest } = props;
+  return <button {...rest}>{title}</button>;
 }

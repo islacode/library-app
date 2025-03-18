@@ -13,7 +13,7 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
-import '@cypress/code-coverage/support'
+import '@cypress/code-coverage/support';
 
 // Import commands.js using ES2015 syntax:
-import '@testing-library/cypress/add-commands'
+import '@testing-library/cypress/add-commands';
