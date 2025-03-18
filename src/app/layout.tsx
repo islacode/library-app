@@ -1,11 +1,11 @@
 import { Analytics } from '@vercel/analytics/next';
-import type { Metadata } from "next";
-import "./globals.css";
-import MainNav from "@/components/MainNav/MainNav";
+import type { Metadata } from 'next';
+import './globals.css';
+import MainNav from '@/components/MainNav/MainNav';
 
 export const metadata: Metadata = {
-  title: "Library App",
-  description: "Learning app based on next.js and react",
+  title: 'Library App',
+  description: 'Learning app based on next.js and react',
 };
 
 export default function RootLayout({
@@ -16,15 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <section className="max-w-[1200px] mx-auto my-10">
-          <header className="flex mb-10">
+        <section className="mx-auto my-10 max-w-[1200px]">
+          <header className="mb-10 flex">
             <MainNav />
           </header>
-          <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+          <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
             {children}
           </main>
-          <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          </footer>
+          <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6"></footer>
         </section>
         <Analytics />
       </body>
