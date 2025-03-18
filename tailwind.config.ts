@@ -1,17 +1,17 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.tsx",
-    "./src/components/**/*.tsx",
-    "./src/app/**/*.tsx",
-    "./cypress/**/*.tsx"
+    './src/pages/**/*.tsx',
+    './src/components/**/*.tsx',
+    './src/app/**/*.tsx',
+    './cypress/**/*.tsx',
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
       },
     },
   },
