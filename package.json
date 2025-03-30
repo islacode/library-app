@@ -16,7 +16,7 @@
     "component:coverage": "yarn component:headless && yarn coverage-report",
     "e2e:coverage": "yarn e2e:headless && yarn coverage-report",
     "test:coverage": "yarn coverage:clean && yarn component:coverage && yarn e2e:coverage",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6006 --disable-telemetry",
     "build-storybook": "storybook build",
     "format": "prettier --write .",
     "prepare": "husky"
