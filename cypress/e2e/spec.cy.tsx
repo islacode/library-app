@@ -1,10 +1,9 @@
 describe('Test page', () => {
-  it('passes', () => {
+  it('passes loading home and books page route', () => {
     cy.visit('/');
-    cy.contains('Get started by editing src/app/page.tsx');
+    cy.contains('Home');
 
-    cy.get('li:nth-of-type(2)').contains(
-      'Save and see your changes instantly.'
-    );
+    cy.visit('/books');
+    cy.contains('Books');
   });
 });
