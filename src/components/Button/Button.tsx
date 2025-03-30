@@ -4,7 +4,6 @@ interface ButtonProps extends HtmlHTMLAttributes<HTMLButtonElement> {
   title: string;
 }
 
-export default function Button(props: ButtonProps) {
-  const { title, ...rest } = props;
+export default function Button({ title, ...rest }: ButtonProps) {
   return <button {...rest}>{title}</button>;
 }
