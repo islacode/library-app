@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prettier --check . && next build",
+    "build": "prettier --check . && yarn next telemetry disable && next build",
     "start": "next start",
     "lint": "next lint",
     "coverage:clean": "rm -rf coverage && rm .nyc_output/out.json",
